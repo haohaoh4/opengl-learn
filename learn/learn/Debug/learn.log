@@ -1,0 +1,30 @@
+﻿生成启动时间为 2017-5-27 20:04:35。
+     1>项目“F:\opengl-learn\learn\learn\learn.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\learn.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include\sys" /I"F:\opengl-learn\learn\learn" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt shader.cpp
+         shader.cpp
+       Link:
+         e:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\opengl-learn\learn\Debug\learn.exe" /NOLOGO /LIBPATH:"C:\Program Files\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib" /LIBPATH:"C:\Program Files\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib32" /LIBPATH:"F:\opengl-learn\learn\learn\dll" /LTCG:STATUS opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC.lib /MANIFEST /ManifestFile:"Debug\learn.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\opengl-learn\learn\Debug\learn.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\opengl-learn\learn\Debug\learn.lib" /MACHINE:X86 Debug\Init.obj
+         Debug\main.obj
+         Debug\MainDraw.obj
+         Debug\shader.obj
+     1>F:\opengl-learn\learn\learn\dll\opengl32.dll : warning LNK4003: 无效的库格式；已忽略库
+     1>F:\opengl-learn\learn\learn\dll\opengl32.dll : warning LNK4003: 无效的库格式；已忽略库
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+     1>F:\opengl-learn\learn\learn\dll\opengl32.dll : warning LNK4003: 无效的库格式；已忽略库
+     1>F:\opengl-learn\learn\learn\dll\opengl32.dll : warning LNK4003: 无效的库格式；已忽略库
+     1>F:\opengl-learn\learn\learn\dll\opengl32.dll : warning LNK4003: 无效的库格式；已忽略库
+         learn.vcxproj -> F:\opengl-learn\learn\Debug\learn.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\opengl-learn\learn\Debug\learn.exe;#1" /manifest Debug\learn.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\learn.unsuccessfulbuild”。
+         正在对“Debug\learn.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\opengl-learn\learn\learn\learn.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.39
